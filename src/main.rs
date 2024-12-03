@@ -7,4 +7,6 @@ fn main() {
     println!("{}", day1::solve());
     println!("{}", day1::solveSimilarity());
     println!("Day 2:");
+    println!("{}", day2::solve());
+    println!("{}", day2::solveTask2());
 }
