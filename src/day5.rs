@@ -92,7 +92,7 @@ pub fn solveTask2() -> i32 {
                                 }
                             }
 
-                            println!("{:?}", list);
+                            //println!("{:?}", list);
                             break 'outer;
                         }
                     }
@@ -101,7 +101,7 @@ pub fn solveTask2() -> i32 {
             }
 
             result += list[(list.len() / 2)];
-            println!("{}", list[(list.len() / 2)]);
+            //println!("{}", list[(list.len() / 2)]);
         }
     }
     return result;
