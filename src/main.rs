@@ -5,6 +5,7 @@ mod day4;
 mod day5;
 mod day6;
 mod day7;
+mod day8;
 
 fn main() {
     println!("Advent of code 24:");
@@ -27,8 +28,13 @@ fn main() {
     println!("{}", day6::solve());
     //println!("{}", day6::solveTask2()); //Takes too long lol
     println!("1888");
-    println!("Day 6:");
+    println!("Day 7:");
     println!("{}", day7::solve());
-    //println!("{}", day7::solveTask2());
+    //println!("{}", day7::solveTask2()); //Takes far too long O(3^n)
     println!("401477450831495");
+    println!("Day 8:");
+    //println!("{}", day8::solve()); //Takes a little bit too long
+    println!("278");
+    //println!("{}", day8::solveTask2()); //Takes a bit too long
+    println!("1067");
 }
