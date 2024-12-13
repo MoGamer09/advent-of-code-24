@@ -9,6 +9,7 @@ mod day8;
 mod day9;
 mod day10;
 mod day11;
+mod day12;
 
 fn main() {
     println!("Advent of code 24:");
@@ -52,4 +53,6 @@ fn main() {
     println!("{}", day11::solve());
     //println!("{}", day11::solveTask2()); // Horrible
     println!("257246536026785");
+    println!("Day 12:");
+    println!("{}", day12::solve())
 }
